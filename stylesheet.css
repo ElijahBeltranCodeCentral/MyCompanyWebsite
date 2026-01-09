@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Science Gothic", sans-serif;
+}
+
+.navlinks {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navlinks li {
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+.navlinks li:hover {
+    background-color: silver;
+    font-size: 25px;
+}
+
+.imagebanner {
+    padding: 50px 0;
+    background-size: cover;
+    background-image: url(images/threadingthefilm.jpg)
+}
+
+.imagebanner h2 {
+    color: white;
+    font-size: 50px;
+    background-color: gray;
+    text-align: center;
+}
+
+.introduction {
+    text-align: center;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+.movies_offered {
+    text-align: left;
+}
+
+.movies_offered img{
+    margin: 32px;
+    border: black 2px solid
+}
+
+@media screen and (min-width: 700px) {
+    .navlinks ul {
+        text-align: right;
+    }
+
+    .navlinks li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+
+    .movie {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
